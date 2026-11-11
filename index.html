@@ -3,37 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b0b10">
-  <meta name="description" content="Deterium is a Minecraft client project.">
+  <meta name="theme-color" content="#101016">
+  <meta name="description" content="Deterium Minecraft Client">
   <title>Deterium Client</title>
   <link rel="icon" href="assets/normal.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <a class="brand logo-hover" href="#home" aria-label="Deterium home">
-      <span class="logo-wrap" aria-hidden="true">
-        <img class="logo-normal" src="assets/normal.png" alt="">
-        <img class="logo-glow" src="assets/glow.png" alt="">
-      </span>
-      <span>Deterium</span>
+  <main class="page" id="home">
+    <a class="logo logo-hover" href="#home" aria-label="Deterium home">
+      <img class="logo-normal" src="assets/normal.png" alt="Deterium logo">
+      <img class="logo-glow" src="assets/glow.png" alt="">
     </a>
-    <span class="status">Minecraft client</span>
-  </header>
-
-  <main id="home">
-    <section class="hero">
-      <a class="hero-logo logo-hover" href="#home" aria-label="Deterium logo">
-        <img class="logo-normal" src="assets/normal.png" alt="Deterium logo">
-        <img class="logo-glow" src="assets/glow.png" alt="">
-      </a>
-      <p class="eyebrow">Minecraft client</p>
-      <h1>Deterium</h1>
-      <p class="intro">A simple client site. More details coming soon.</p>
-      <span class="coming-soon">Download coming soon</span>
-    </section>
+    <h1>Deterium</h1>
+    <p>Minecraft Client</p>
+    <a class="download" href="#">Coming Soon</a>
   </main>
-
-  <footer class="footer">Not affiliated with Mojang or Microsoft.</footer>
+  <footer>© <span id="year"></span> Deterium</footer>
+  <script src="script.js"></script>
 </body>
 </html>
