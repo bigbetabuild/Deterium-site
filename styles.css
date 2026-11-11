@@ -26,6 +26,7 @@ body { min-height: 100vh; display: flex; flex-direction: column; }
 
 h1 { margin: 0; font-size: 40px; line-height: 1.1; font-weight: 700; }
 .page p { margin: 8px 0 24px; color: #aaa; font-size: 16px; }
+.actions { display: flex; flex-direction: column; align-items: center; gap: 10px; }
 .download {
   display: inline-block;
   padding: 10px 24px;
@@ -35,9 +36,20 @@ h1 { margin: 0; font-size: 40px; line-height: 1.1; font-weight: 700; }
   color: #fff;
   font-size: 14px;
   text-decoration: none;
-  transition: background-color .18s ease, color .18s ease, border-color .18s ease;
+  transition: background-color .32s cubic-bezier(.22, 1, .36, 1), color .32s cubic-bezier(.22, 1, .36, 1), border-color .32s cubic-bezier(.22, 1, .36, 1);
 }
 .download:hover, .download:focus-visible { background: #fff; border-color: #fff; color: #101016; }
+.archive {
+  padding: 6px 12px;
+  border: 0;
+  background: transparent;
+  color: #aaa;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color .32s cubic-bezier(.22, 1, .36, 1);
+}
+.archive:hover, .archive:focus-visible { color: #fff; }
 footer { padding: 14px 20px; color: #777; text-align: center; font-size: 12px; }
 :focus-visible { outline: 2px solid #b394ec; outline-offset: 4px; }
 @media (max-width: 480px) { .logo { width: 104px; height: 104px; } .logo-mark { font-size: 60px; } h1 { font-size: 34px; } }
