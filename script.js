@@ -1,4 +1,2 @@
-const toggleYear = document.getElementById('year');
-if (toggleYear) {
-  toggleYear.textContent = new Date().getFullYear();
-}
+const year = document.getElementById('year');
+if (year) year.textContent = new Date().getFullYear();
