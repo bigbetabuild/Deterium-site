@@ -21,8 +21,8 @@ body { min-height: 100vh; display: flex; flex-direction: column; }
 }
 
 .logo { position: relative; display: grid; place-items: center; width: 128px; height: 128px; margin-bottom: 18px; color: #eee; text-decoration: none; }
-.logo-mark { font-size: 70px; line-height: 1; font-weight: 800; letter-spacing: -5px; transition: color .2s ease, text-shadow .2s ease, transform .2s ease; }
-.logo-hover:hover .logo-mark, .logo-hover:focus-visible .logo-mark { color: #fff; text-shadow: 0 0 8px #b394ec, 0 0 20px #8e63d5, 0 0 38px #7651b5; transform: scale(1.06); }
+.logo-mark { font-size: 70px; line-height: 1; font-weight: 800; letter-spacing: -5px; transition: color .2s ease, text-shadow .2s ease; }
+.logo-hover:hover .logo-mark, .logo-hover:focus-visible .logo-mark { color: #fff; text-shadow: 0 0 8px #fff, 0 0 20px #fff, 0 0 38px #fff; }
 
 h1 { margin: 0; font-size: 40px; line-height: 1.1; font-weight: 700; }
 .page p { margin: 8px 0 24px; color: #aaa; font-size: 16px; }
